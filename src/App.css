@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app {
+  display: flex;
+}
+.container {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.spin-container {
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 300px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  min-height: 250px;
+  margin-left: 0px;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+.head {
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+.input-add-container {
+  display: flex;
+}
+.input-type-container {
+  display: flex;
+
+  margin-bottom: 15px;
+  border: 1px solid black;
+}
+.input {
+  outline: none;
+  color: green;
+  padding: 10px;
+  border: none;
+  color: black;
+}
+
+.image {
+  margin-bottom: 0px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.image-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0px;
+  width: 70%;
+}
+.button {
+  height: 35px;
+  margin-left: 30px;
+}
+.line {
+  border-top: 2px dashed black;
+}
+.ul-container {
+  list-style: none;
+}
+.list-container {
+  display: flex;
+}
+.para {
+  background-color: pink;
+  padding: 5px;
+  margin-left: 0px;
+  font-size: 20px;
+  margin-top: 0px;
+  width: 200px;
+  border-radius: 5px;
+}
+.box {
+  height: 30px;
+  width: 50px;
+  margin-right: 0px;
+}
+.delete-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.span {
+  background-color: grey;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 5px;
+}
